@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 import json
 import tempfile
-import PyPDF2
+import pypdf
 from pathlib import Path
 from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
