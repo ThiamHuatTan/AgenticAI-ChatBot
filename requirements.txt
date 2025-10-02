@@ -1,0 +1,15 @@
+streamlit
+fastapi
+uvicorn
+requests
+langchain
+langchain-openai
+langchain-groq
+langchain-community
+tavily-python
+python-dotenv
+
+# Added for PDF reading
+pypdf
+unstructured
+chardet
