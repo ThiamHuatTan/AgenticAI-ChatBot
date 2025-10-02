@@ -97,10 +97,10 @@ def process_uploaded_file(file_content: bytes, filename: str):
         }
 
 def extract_text_from_pdf(file_path: str) -> str:
-    """Extract text from PDF using PyPDF2"""
+    """Extract text from PDF using PyPDF"""
     try:
         with open(file_path, 'rb') as file:
-            pdf_reader = PyPDF2.PdfReader(file)
+            pdf_reader = pypdf.PdfReader(file)
             text = ""
             for page in pdf_reader.pages:
                 text += page.extract_text() + "\n\n"
