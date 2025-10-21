@@ -11,7 +11,8 @@ import PyPDF2
 from pathlib import Path
 from langchain_openai import ChatOpenAI
 from langchain_groq import ChatGroq
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+#from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain import text_splitters
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 import threading
